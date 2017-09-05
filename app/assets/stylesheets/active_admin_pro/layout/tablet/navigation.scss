@@ -5,7 +5,7 @@
 
   #title_bar #titlebar_left {
     @include clearfix;
-    @include display(flex);
+    display: flex;
 
     .breadcrumb {
       @include flex(30);

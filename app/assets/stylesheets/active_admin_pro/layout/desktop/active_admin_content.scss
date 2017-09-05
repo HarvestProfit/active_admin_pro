@@ -1,9 +1,9 @@
 @include media($desktop) {
   #active_admin_content {
     @include align-items(stretch);
-    @include display(flex);
     @include flex-direction(row);
     @include justify-content(flex-start);
+    display: flex;
     overflow: hidden;
   }
 
