@@ -15,6 +15,8 @@
       $(this).addClass('active');
     });
   }).exit(function() {
+    body = $('body');
+    links = $('a:not([data-method="delete"]):not([data-action="destroy"]):not(.has_many_add):not(.dropdown_menu_button):not([target="_blank"])');
     // Remove the classes when the body is unloaded
     body.removeClass('loading');
     links.removeClass('active');
