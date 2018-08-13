@@ -20,7 +20,7 @@ Gem::Specification.new do |s|
   s.add_dependency "activeadmin"
   s.add_dependency "activeadmin-sortable", "~> 0.0"
   s.add_dependency "codelation_assets", "~> 0.4"
-  s.add_dependency "turbolinks", ">= 2.0", "<= 5.x"
+  s.add_dependency "turbolinks", ">= 2.0"
 
   s.add_development_dependency "awesome_print", "~> 1.6"
   s.add_development_dependency "capybara", "~> 2.5"
