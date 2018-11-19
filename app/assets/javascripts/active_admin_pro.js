@@ -4,6 +4,6 @@
 //= require turbolinks
 //= require_tree ./active_admin_pro
 
-setTimeout(function() {
+$(document).on("turbolinks:load", function() {
   $(document).trigger('page:load');
-}, 100);
+})
